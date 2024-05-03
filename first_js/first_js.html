@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+ 
+<html>
+<head>
+    <script>
+        
+        function hello() {
+            document.getElementById('sample').innerHTML = "This is my first web page with JS";
+            document.getElementById('sample').style.backgroundColor = "#0000AA";
+            document.getElementById('sample').style.color = "yellow";
+
+            document.getElementById('anotherSample').innerHTML = "by: Mark Jester Allen";
+            document.getElementById('anotherSample').style.backgroundColor = "#FFFF00";
+            document.getElementById('anotherSample').style.color = "green";
+
+            document.getElementById('yooSample').innerHTML = "Advance JS and JS Framework";
+            document.getElementById('yooSample').style.backgroundColor = "#AA0000";
+            document.getElementById('yooSample').style.color = "blue";
+
+        }
+    </script>
+</head>
+<body>
+    <button type="button" onclick="hello()">Click me</button>
+    <p id="sample">When you click the button above, the text will change.</p>
+    <p id="anotherSample"></p>
+    <p id="yooSample"></p>
+</body>
+</html>

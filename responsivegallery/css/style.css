@@ -1,0 +1,31 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    background-color: rgb(49, 49, 190);
+    padding: 10px;
+    gap: 50px 20px;
+    /*column-gap: 10px;
+    row-gap: 10px;*/
+}
+
+.grid-item {
+    background-color: rgb(120, 168, 211);
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.item1 {
+    width: 300px;
+    height: 170px;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.item2 {
+    width: 300px;
+    height: 170px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function sum() {
+            var firstNum = Number(document.getElementById('firstNum').value);
+            var secondNum = Number(document.getElementById('secondNum').value);
+
+            document.getElementById('sum').innerHTML = firstNum + secondNum;
+            document.getElementById('diff').innerHTML = firstNum - secondNum;
+            document.getElementById('prod').innerHTML = firstNum * secondNum;
+            document.getElementById('div').innerHTML = firstNum / secondNum;
+        }
+    </script>
+</head>
+<boby>
+    <form>
+        <h1>Sum Calculator</h1>
+        <h2>First Number:</h2>
+        <input type = "text" id = "firstNum">
+    <br>
+        <h2>Second Number:</h2>
+        <input type = "text" id = "secondNum">
+    <br>
+    <br>
+        <button type ="button" onclick="sum()">Compute</button>
+        <br>
+        <p id = "sum">sum:
+        </p>
+        <p id = "diff">Difference: 
+        </p>
+        <p id = "prod">product: 
+        </p>
+        <p id = "div">Quotient: 
+        </p>
+    </form>
+</boby>
+</html>
